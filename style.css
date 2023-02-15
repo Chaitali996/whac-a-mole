@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('https://www.pngfind.com/pngs/m/240-2405208_transparent-nature-background-png-png-download.png'); */
+    background-color: rgb(19, 49, 40);
+    border: 2px solid black;
+   
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border:1px solid black;
+    background-color: aliceblue;
+}
+
+.mole{
+    background-image: url('https://img.freepik.com/premium-vector/cartoon-funny-groundhog-standing_29190-5196.jpg?w=360');
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    padding: 50px 50px;
+    
+}
+.tm{
+    margin-left: 50px;
+}
